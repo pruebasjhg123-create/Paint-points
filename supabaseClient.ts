@@ -12,7 +12,7 @@ const supabaseUrl = 'https://pounvixeimxkzmundxbf.supabase.co';
  * DEBES cambiar esta clave por la 'anon public' key que se encuentra en:
  * Supabase Dashboard -> Settings -> API -> Project API keys -> anon (public)
  */
-const supabaseAnonKey = 'sb_publishable_seuiDao4XMXMRthe_X4NZg_qCInNUD8';
+const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBvdW52aXhlaW14a3ptdW5keGJmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njc2NDEwMDYsImV4cCI6MjA4MzIxNzAwNn0.RTZccaEwYd6j36nMxJEba6vghIdbHcwTXd6W7iZLCuE';
 
 // Inicialización del cliente de Supabase
 export const supabase = createClient(supabaseUrl, supabaseAnonKey);
