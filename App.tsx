@@ -127,16 +127,21 @@ const App: React.FC = () => {
             <motion.div 
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
-              className="mb-12 text-center"
+              className="mb-12 text-cen20 text-center px-4"
             >
-              <h1 className="mb-6 text-5xl md:text-6xl font-bold tracking-tight leading-tight pt-4">
-                SaaS Opportunity <br /> 
-                <span className="bg-gradient-to-r from-indigo-400 via-violet-400 to-fuchsia-400 bg-clip-text text-transparent">Intelligence Engine.</span>
-              </h1>
+                {/* Badge superior más refinado */}
+                <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-white/10 bg-white/5 text-indigo-300 text-[11px] font-semibold uppercase tracking-[0.2em] mb-8">
+                      <Sparkles size={14} className="animate-pulse" /> Inteligencia en vivo
+                    </div>
+
+                {/* Título Masivo y Profesional */}
+              <h1 className="mb-6 text-5xl md:className="text-6xl md:text-8xl font-black mb-8 leading-[0.9] tracking-tighter bg-gradient-to-b from-white via-white to-zinc-600 bg-clip-text text-transparent">               SaaS Opportunity <br /> 
+                <span className="bg-gradient-to-r from-indigo-400 via-violet-400     ¿Qué quieres <br/>construir hoy?
               
-              <p className="mx-auto max-w-2xl text-zinc-500 text-lg mb-10">
-                Identify billion-dollar professional frictions using our proprietary intelligence database.
-              </p>
+              <p classN
+                  
+                    {/* Subtítulo con mejor lectura */}ame="mx-auto className="mx-auto max-w-2xl text-zinc-400 text-lg md:text-xl font-medium leading-relaxed mb-12">
+    Detectando micro-oportunidades de ejecución rápida y alta rentabilidad.              </p>
 
               <div className="flex flex-col items-center gap-10">
                 <button 
