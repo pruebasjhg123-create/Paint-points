@@ -127,7 +127,7 @@ const App: React.FC = () => {
             <motion.div 
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
-              className="mb-12 text-cen20 text-center px-4"
+              className="12 mb-20 text-center px-4"
             >
                 {/* Badge superior más refinado */}
                 <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-white/10 bg-white/5 text-indigo-300 text-[11px] font-semibold uppercase tracking-[0.2em] mb-8">
